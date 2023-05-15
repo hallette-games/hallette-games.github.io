@@ -6,8 +6,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Блог LXCHN1v1'
-export const siteTitle = 'LXCHN1v1'
+const name = 'Hallette Games'
+export const siteTitle = 'Hallette Games'
 
 export default function Layout({ children, home }) {
   return (
@@ -16,7 +16,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Website of Hallette Games game studio"
         />
         <meta
           property="og:image"
@@ -49,16 +49,6 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Link href="/">
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt={name}
-              />
-            </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/" className={utilStyles.colorInherit}>
                 {name}
