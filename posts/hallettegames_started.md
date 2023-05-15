@@ -3,7 +3,7 @@ title: 'Hallette Games офіційно запущено!'
 date: '2023-05-15'
 ---
 
-[Hallette Games]()
+![](https://github.com/hallette-games/hallette-games.github.io/blob/e30f62f9d566015f3c7cfb37cf60d6605846afe7/public/images/profile.jpg)
 
 HALLETTE GAMES офіційно запущено!
 
