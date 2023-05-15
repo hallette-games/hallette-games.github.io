@@ -12,11 +12,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Особистий блог українського розробника</p>
-        <p>
-          (Переходи в {' '}
-          <a href="https://t.me/LexChen_Chat">наший чат</a>.)
-        </p>
+        <p>Особистий блог ігрової студії Hallette Games</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Блог</h2>
